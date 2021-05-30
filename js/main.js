@@ -25,19 +25,19 @@ Vue.component("tab-contato", {
             <h1>Contato</h1>
             <ul>
                 <li>
-                    <p>Telefone: <a> {{ tel }} </a></p>
+                    <p>Telefone: <a href="tel:+5575992370004" target=_blank> {{ tel }} </a></p>
                 </li>
                 <li>
-                    <p>GitHub: <a> {{ git }} </a></p>
+                    <p>GitHub: <a href="https://github.com/joaorios03" target=_blank> {{ git }} </a></p>
                 </li>
                 <li>
-                    <p>Instagram: <a> {{ instagram }} </a></p>
+                    <p>Instagram: <a href="https://www.instagram.com/joaorios03/" target=_blank> {{ instagram }} </a></p>
                 </li>
                 <li>
-                    <p>LinkedIn: <a> {{ linkedin }} </a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/joao-pedro-a521931a6/" target=_blank> {{ linkedin }} </a></p>
                 </li>
                 <li>
-                    <p>Email: <a> {{ email }} </a></p>
+                    <p>Email: <a href="mailto:jprcarvalho1@gmail.com" target=_blank> {{ email }} </a></p>
                 </li>
             </ul>
         </div>`,
@@ -46,7 +46,7 @@ Vue.component("tab-contato", {
             tel: "(75) 99237-0004",
             git: "joaorios03",
             instagram: "joaorios03",
-            linkedin: "...",
+            linkedin: "joao pedro",
             email: "jprcarvalho1@gmail.com"
         }
     }
