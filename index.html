@@ -22,9 +22,9 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-dark">
     <div id="app">
-        <nav class="navbar navbar-expand-md fixed-top">
+        <nav class="navbar navbar-expand-md" id="nav">
             <button id="button-cel" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opcoes">
                 <i class="fa fa-bars nav-text"></i>
             </button>
@@ -40,7 +40,7 @@
             </div>
         </nav>
 
-        <div class="container my-md-5 py-5">
+        <div class="container my-md-1 py-5">
             <component v-bind:is="currentTabComponent" class="tab"></component>
         </div>
     </div>
